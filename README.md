@@ -63,7 +63,7 @@ compile 'eduardocuomo:MaterialBarcodeScanner:0.0.6-ALPHA'
  
 ##3. Start scanning!
 
-Check out the full [example project](https://github.com/EdwardvanRaak/MaterialBarcodeScanner/blob/master/app/src/main/java/com/edwardvanraak/materialbarcodescannerexample/MainActivity.java) for code required for camera permissions on Android 6.0 Marshmallow
+Check out the full [example project](https://github.com/reduardo7/MaterialBarcodeScanner/blob/master/app/src/main/java/com/edwardvanraak/materialbarcodescannerexample/MainActivity.java) for code required for camera permissions on Android 6.0 Marshmallow
 
 #Additional Setup
 
@@ -106,4 +106,3 @@ If you want to scan for a very specific combination of barcodes you can setup th
 * Edward van Raak
  * edwardvraak@gmail.com
  * [Donate with Paypal](https://www.paypal.me/EdwardvanRaak)
-
