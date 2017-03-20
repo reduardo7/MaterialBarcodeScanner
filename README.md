@@ -21,7 +21,7 @@ Easy to use barcode reader for your Android Project (Uses Google Mobile Vision A
 ##1. Provide gradle dependency
 
 ```gradle
-compile 'com.edwardvanraak:MaterialBarcodeScanner:0.0.6-ALPHA'
+compile 'eduardocuomo:MaterialBarcodeScanner:0.0.6-ALPHA'
 ```
 
 ##2. Build a MaterialBarcodeScanner

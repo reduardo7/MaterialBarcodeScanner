@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.edwardvanraak.materialbarcodescanner">
+    package="ar.com.eduardocuomo.materialbarcodescanner">
     <uses-feature android:name="android.hardware.camera" />
     <uses-permission android:name="android.permission.CAMERA" />
     <application
@@ -14,7 +14,7 @@
             android:value="barcode" />
         <activity
             android:theme="@style/AppTheme.NoActionBar"
-            android:name=".MaterialBarcodeScannerActivity"
+            android:name="ar.com.eduardocuomo.materialbarcodescanner.MaterialBarcodeScannerActivity"
             android:label="@string/library_name" >
         </activity>
     </application>

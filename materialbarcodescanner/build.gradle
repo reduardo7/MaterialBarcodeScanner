@@ -9,7 +9,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
-        versionName "0.0.6-ALPHA"
+        versionName "0.1.0"
     }
     buildTypes {
         release {
@@ -28,12 +28,12 @@ apply from: 'gradle-mvn-push.gradle'
 apply from: 'gradle-jcenter-push.gradle'
 
 publish {
-    userOrg = 'edwardvraak'
-    groupId = 'com.edwardvanraak'
+    userOrg = 'eduardocuomo'
+    groupId = 'ar.com.eduardocuomo'
     artifactId = 'MaterialBarcodeScanner'
 	bintrayUser = project.hasProperty('bintray.user') ? project.property('bintray.user') : System.getenv('BINTRAY_USER')
     bintrayKey = project.hasProperty('bintray.apikey') ? project.property('bintray.apikey') : System.getenv('BINTRAY_API_KEY')
-    version = '0.0.2-ALPHA'
+    version = '0.1.0'
     description = 'Easy to use barcode reader for your Android Project!'
 }
 

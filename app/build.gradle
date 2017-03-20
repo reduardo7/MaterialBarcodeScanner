@@ -5,11 +5,11 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.edwardvanraak.materialbarcodescanner"
+        applicationId "ar.com.eduardocuomo.materialbarcodescanner"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1
-        versionName "0.0.6-ALPHA"
+        versionName "0.1.0"
     }
     buildTypes {
         release {

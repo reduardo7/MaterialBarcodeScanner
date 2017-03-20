@@ -6,17 +6,17 @@
     android:keepScreenOn="true"
     android:orientation="vertical">
 
-    <com.edwardvanraak.materialbarcodescanner.CameraSourcePreview
+    <ar.com.eduardocuomo.materialbarcodescanner.CameraSourcePreview
         android:id="@+id/preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.edwardvanraak.materialbarcodescanner.GraphicOverlay
+        <ar.com.eduardocuomo.materialbarcodescanner.GraphicOverlay
             android:id="@+id/graphicOverlay"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </com.edwardvanraak.materialbarcodescanner.CameraSourcePreview>
+    </ar.com.eduardocuomo.materialbarcodescanner.CameraSourcePreview>
 
     <RelativeLayout
         android:layout_width="match_parent"
